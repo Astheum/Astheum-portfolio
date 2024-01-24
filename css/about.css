@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-gif {
+    height: 50px;
+    margin-top: -5px;
+    margin-left: 20px ;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav li a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+}
+
+.nav li a:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    display: block;
+    transition: all 0.5s ease;
+    bottom: 10%;
+}
+
+.nav li a:hover::after {
+    width: 100%;
+    height: 2px;
+    background-color: #F6BD41;
+}
+
+main {
+    height: fit-content;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+section h1 {
+    grid-column: 1;
+    padding: 20px 100px;
+    justify-content: center;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 6rem;
+    font-weight: normal;
+    color: white;
+}
+
+section h2{
+    grid-column: 2/4;
+    padding: 60px 100px;
+    margin-left: -100px;
+    margin-right: 150px;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+}
+
+section a {
+    font-weight: bolder ;
+    color: #F6BD41;
+}
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width:1400px) {
+
+}
