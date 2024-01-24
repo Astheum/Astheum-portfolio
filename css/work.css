@@ -78,6 +78,7 @@ header {
     z-index: 98;
     background-color: #353535;
     margin-top: 120px;
+    padding: 130px 0px;
     transition: 0.4s;
 
     a {
