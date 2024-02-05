@@ -13,38 +13,44 @@
     <header>
         <img class="header-gif" src="/src/Astheum.gif" alt="Astheum gif">
 
-        <div class="nav">
-            <li>
-                <a href="/index.html">Work</a>
-            </li>
-            <li>
-                <a href="about.html">About / Contact</a>  
-            </li>
-            <li>
-                <a href="">Behance</a>
-            </li>
-            <li>
-                <a href="">Instagram</a>
-            </li>
-        </div>
+        <nav class="desktop-nav">
+            <span><a href="/index.html">Work</a></span>
+            <span><a href="tabs/about.html">About/Contact</a></span>
+            <span><a href="">Behance</a></span>
+            <span><a href="">Instagram</a></span>
+        </nav>
+
+        <button class="menu">
+            <div class="bar"></div>
+        </button>
+
+        <nav class="mobile-nav">
+            <a href="/index.html">Work</a>
+            <a href="tabs/about.html">About/Contact</a>
+            <a href="">Behance</a>
+            <a href="">Instagram</a>
+        </nav>
     </header>
 
     <main>
-        <section>
+        <section class="about-section">
             <h1>ABOUT</h1>
-            <h2>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore, modi mollitia et placeat voluptas culpa ratione a voluptates ut id ducimus fuga repudiandae commodi perspiciatis omnis? Incidunt, amet quis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore, modi mollitia et placeat voluptas culpa ratione a voluptates ut id ducimus fuga repudiandae commodi perspiciatis omnis? Incidunt, amet quis!
-            </h2>
-
+            <p class="about-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, tempore, modi mollitia et placeat voluptas culpa ratione a voluptates ut id ducimus fuga repudiandae commodi perspiciatis omnis? Incidunt, amet quis! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </section>
+        
+        <section class="contact-section">
             <h1>CONTACT</h1>
-            <h2>
+            <p class="contact-text">
                 Instagram: <a href="">@Astheum</a>
                 <br>
                 Behance: <a href="https://www.behance.net/matheusferreira169" target="_blank">@Astheum</a>
                 <br>
                 Whatsapp: <a href="">+55 (34) 9 9860-1557</a>
-            </h2>
-            
+            </p>
+        </section>
     </main>
+    <script src="/js/script.js" type="module" async defer></script>
 </body>
 </html>
