@@ -364,6 +364,36 @@ footer {
             width: 590px;
         }
     }
+
+    footer {
+        grid-template-columns: repeat(5, 1fr);
+
+        .about-section {
+            grid-column: 1/4;
+            width: 80%;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .about-text {
+                font-size: 1rem;
+            }
+        }
+
+        .contact-section {
+            grid-column: 4/6;
+
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .contact-text {
+                font-size: 1.1rem;
+            }
+        }
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
